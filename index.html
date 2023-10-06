@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__inner">
+          <div class="header-top__logo">
+            <img src="images/logo.svg" alt="">
+          </div>
+          <a class="header-top__mail" href="mailto:gasheaters@mail.ru">gasheaters@mail.ru</a>
+          <a class="header-top__phone-link" href="tel:+74954311765">+7 (495) 431-17-65</a>
+        </div>
+      </div>
+    </div>
+    <div class="header-content">
+      <div class="container">
+        <div class="header-content__inner">
+          <h1 class="header-content__title">Аренда обогревателей для мероприятий</h1>
+          <div class="header-content__box">
+            <div class="header-content__image-box">
+              <img src="images/gifka.gif" alt="">
+              <img src="images/heater1.png" alt="">
+              <img src="images/heater2.png" alt="">
+            </div>
+            <form class="header-content__form">
+              <h6 class="header-content__form-title">Оставьте контакт и получите <br>
+                <span> 3 пледа </span> к каждому обогревателю</h6>
+              <img class="header-content__img" src="images/form-img.svg" alt="">
+              <div class="header-content__form-inner">
+                <div class="header-content__input-box">
+                  <input type="text" placeholder="Имя">
+                  <input type="text" placeholder="Телефон">
+                </div>
+                <div class="header-content__social">
+                  <label class="header-content__social-label social-label1">
+                    <input class="social-label__input" type="radio" name="header-radio" checked>
+                    <div class="header-content__label--decor">
+                      <img src="images/icon-phone-new.png" alt="">
+                    </div>
+                  </label>
+                  <label class="header-content__social-label social-label2">
+                    <input class="social-label__input" type="radio" name="header-radio">
+                    <div class="header-content__label--decor">
+                      <img src="images/whats-new.png" alt="">
+                    </div>
+                  </label>
+                  <label class="header-content__social-label social-label3">
+                    <input class="social-label__input" type="radio" name="header-radio" >
+                    <div class="header-content__label--decor">
+                      <img src="images/tg-new.png" alt="">
+                    </div>
+                  </label>
+                  
+                </div>
+              </div>
+              <label class="header-content__label">
+                <input class="header-content__input" type="checkbox" checked>
+                <div class="header-content__checkbox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
+                    <path d="M13.0509 0.956092L11.8825 0.162649C11.7274 0.0582421 11.5373 0.0192953 11.3536 0.0542772C11.17 0.0892591 11.0075 0.195341 10.9016 0.349456L5.18219 8.78442L2.55322 6.15545C2.42039 6.02408 2.24112 5.9504 2.0543 5.9504C1.86749 5.9504 1.68821 6.02408 1.55539 6.15545L0.557566 7.15523C0.491951 7.22076 0.439897 7.29858 0.404382 7.38425C0.368866 7.46991 0.350586 7.56173 0.350586 7.65447C0.350586 7.7472 0.368866 7.83903 0.404382 7.92469C0.439897 8.01035 0.491951 8.08817 0.557566 8.15371L4.59898 12.1971C4.82615 12.4229 5.18154 12.5974 5.50178 12.5974C5.82202 12.5974 6.14486 12.3956 6.3525 12.0936L13.239 1.93569C13.3437 1.78077 13.3827 1.59064 13.3475 1.407C13.3122 1.22336 13.2055 1.0612 13.0509 0.956092Z" fill="#B7B7B7" fill-opacity="0.4"/>
+                    </svg>
+                </div>
+                <span>Я согласен на обработку персональных данных</span>
+              </label>
+              <button class="header-content__form-btn">Оставить заявку</button>
+            </form>
+          </div>
+          <div class="header-content__info">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+              <g clip-path="url(#clip0_88_106)">
+              <path d="M12.3124 2.72005L11.0524 1.93359L10.8124 3.44297C10.4304 5.8263 8.86743 8.04089 7.14343 9.59714C3.76843 12.6451 3.02943 15.9576 4.07443 18.6919C5.07443 21.3086 7.61243 23.1003 10.1884 23.3992L10.7844 23.468C9.31043 22.5294 8.36443 20.3367 8.69443 18.6982C9.02043 17.0878 10.1324 15.5794 12.2684 14.1878L13.3454 13.4878L13.7474 14.743C13.9844 15.4846 14.3944 16.0805 14.8114 16.6857C15.0114 16.9773 15.2144 17.2721 15.4004 17.5857C16.0434 18.6742 16.2134 19.8846 15.7984 21.0857C15.4204 22.1773 14.7964 23.0357 13.9384 23.5117L14.9084 23.3992C17.3264 23.119 19.1014 22.2576 20.2544 20.8169C21.3974 19.3888 21.7984 17.5503 21.7984 15.593C21.7984 13.7701 21.0794 11.8909 20.2314 10.3273C19.2374 8.49609 17.9404 6.97526 16.5244 5.5013C16.2794 6.01172 16.2984 6.21797 15.7944 7.03776C15.1402 5.22713 13.9117 3.70373 12.3124 2.72005Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_88_106">
+              <rect width="24" height="25" fill="white" transform="translate(0.798828 0.48877)"/>
+              </clipPath>
+              </defs>
+            </svg>
+            <p class="header-content__text">в наличии <span>100</span> обогревателей <span>2023 года</span> выпуска</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="equipment">
+      <div class="container">
+        <div class="equipment__inner">
+          <h1 class="equipment__title">Основное доп оборудование</h1>
+          <div class="equipment__items">
+            <div class="equipment__item">
+              <div class="equipment__item-img">
+                <img src="images/equipment1.svg" alt="">
+              </div>
+              <p class="equipment__text">Газовый баллон</p>
+            </div>
+            <div class="equipment__item">
+              <div class="equipment__item-img">
+                <img src="images/equipment2.svg" alt="">
+              </div>
+              <p class="equipment__text">Удленители</p>
+            </div>
+            <div class="equipment__item">
+              <div class="equipment__item-img">
+                <img src="images/equipment3.svg" alt="">
+              </div>
+              <p class="equipment__text">Технический специалист</p>
+            </div>
+            <div class="equipment__item">
+              <div class="equipment__item-img">
+                <img src="images/equipment4.svg" alt="">
+              </div>
+              <p class="equipment__text">Грифельная доска</p>
+            </div>
+            <div class="equipment__item">
+              <div class="equipment__item-img">
+                <img src="images/equipment5.svg" alt="">
+              </div>
+              <p class="equipment__text">Столик</p>
+            </div>
+            <div class="equipment__item">
+              <div class="equipment__item-img">
+                <img src="images/equipment6.svg" alt="">
+              </div>
+              <p class="equipment__text">Огнетушители</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <div class="container">
+        <div class="catalog__inner">
+          <div class="catalog__item" onclick="">
+            
+            <div class="catalog__item-form item-form">
+              <button class="form-closer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path d="M20.9082 20.2769L4.9082 4.27686M20.9082 4.27686L4.9082 20.2769" stroke="#363232" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+              </button>
+              <h6 class="item-form__title">Оставьте заявку</h6>
+              <input class="item-form__input" type="text" placeholder="Имя">
+              <input class="item-form__input" type="text" placeholder="Телефон">
+              <div class="item-form__social">
+                <label class="header-content__social-label social-label1">
+                  <input class="social-label__input" type="radio" name="item-radio" checked>
+                  <div class="header-content__label--decor">
+                    <img src="images/icon-phone-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label2">
+                  <input class="social-label__input" type="radio" name="item-radio">
+                  <div class="header-content__label--decor">
+                    <img src="images/whats-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label3">
+                  <input class="social-label__input" type="radio" name="item-radio" >
+                  <div class="header-content__label--decor">
+                    <img src="images/tg-new.png" alt="">
+                  </div>
+                </label>
+              </div>
+              <label class="item-form__label">
+                <input class="checkbox" type="checkbox" checked>
+                <div class="item-form__checkbox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                    <path d="M21.7262 2.39865L19.7634 1.06566C19.5028 0.890259 19.1835 0.824828 18.8749 0.883598C18.5663 0.942368 18.2933 1.12059 18.1155 1.3795L8.50677 15.5503L4.09008 11.1336C3.86694 10.9129 3.56576 10.7891 3.25191 10.7891C2.93806 10.7891 2.63687 10.9129 2.41373 11.1336L0.737377 12.8133C0.627143 12.9233 0.539692 13.0541 0.480026 13.198C0.42036 13.3419 0.389648 13.4962 0.389648 13.652C0.389648 13.8078 0.42036 13.962 0.480026 14.106C0.539692 14.2499 0.627143 14.3806 0.737377 14.4907L7.52699 21.2836C7.90862 21.663 8.50568 21.9561 9.04369 21.9561C9.58169 21.9561 10.1241 21.6171 10.4729 21.1097L22.0423 4.04439C22.2182 3.78412 22.2837 3.4647 22.2245 3.15619C22.1652 2.84767 21.9861 2.57524 21.7262 2.39865Z" fill="#B7B7B7" fill-opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="item-form__text">Я согласен на обработку персональных данных</span>
+              </label>
+              <button class="item-form__btn">Оставить заявку</button>
+            </div>
+            <div class="catalog__btn-box">
+              <button class="catalog__item-btn">Подробнее</button>
+            </div>
+            <div class="catalog__img-box">
+              <img src="images/catalog/img1.jpg" alt="">
+            </div>
+            <h3 class="catalog__item-title">Уличный газовый обогреватель «Гриб»</h3>
+            <div class="catalog__item-params">
+              <div class="item-params__left">
+                <div class="item-params__row material">
+                  Материал: Металл
+                </div>
+                <div class="item-params__row size">                 
+                  ШДВ: 81 х 81 х 221 см
+                </div>
+              </div>
+              <div class="item-params__right">
+                <div class="item-params__row item-params__price">
+                  <span class="item-price">1 470 ₽</span>
+                  / сутки
+                </div>
+                <div class="item-params__row item-params__sub-price">
+                  со 2-го дня: 
+                  <span class="item-price1">735 ₽</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__item" onclick="">
+            <div class="catalog__item-form item-form">
+              <button class="form-closer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path d="M20.9082 20.2769L4.9082 4.27686M20.9082 4.27686L4.9082 20.2769" stroke="#363232" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+              </button>
+              <h6 class="item-form__title">Оставьте заявку</h6>
+              <input class="item-form__input" type="text" placeholder="Имя">
+              <input class="item-form__input" type="text" placeholder="Телефон">
+              <div class="item-form__social">
+                <label class="header-content__social-label social-label1">
+                  <input class="social-label__input" type="radio" name="item-radio" checked>
+                  <div class="header-content__label--decor">
+                    <img src="images/icon-phone-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label2">
+                  <input class="social-label__input" type="radio" name="item-radio">
+                  <div class="header-content__label--decor">
+                    <img src="images/whats-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label3">
+                  <input class="social-label__input" type="radio" name="item-radio" >
+                  <div class="header-content__label--decor">
+                    <img src="images/tg-new.png" alt="">
+                  </div>
+                </label>
+              </div>
+              <label class="item-form__label">
+                <input class="checkbox" type="checkbox" checked>
+                <div class="item-form__checkbox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                    <path d="M21.7262 2.39865L19.7634 1.06566C19.5028 0.890259 19.1835 0.824828 18.8749 0.883598C18.5663 0.942368 18.2933 1.12059 18.1155 1.3795L8.50677 15.5503L4.09008 11.1336C3.86694 10.9129 3.56576 10.7891 3.25191 10.7891C2.93806 10.7891 2.63687 10.9129 2.41373 11.1336L0.737377 12.8133C0.627143 12.9233 0.539692 13.0541 0.480026 13.198C0.42036 13.3419 0.389648 13.4962 0.389648 13.652C0.389648 13.8078 0.42036 13.962 0.480026 14.106C0.539692 14.2499 0.627143 14.3806 0.737377 14.4907L7.52699 21.2836C7.90862 21.663 8.50568 21.9561 9.04369 21.9561C9.58169 21.9561 10.1241 21.6171 10.4729 21.1097L22.0423 4.04439C22.2182 3.78412 22.2837 3.4647 22.2245 3.15619C22.1652 2.84767 21.9861 2.57524 21.7262 2.39865Z" fill="#B7B7B7" fill-opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="item-form__text">Я согласен на обработку персональных данных</span>
+              </label>
+              <button class="item-form__btn">Оставить заявку</button>
+            </div>
+            <div class="catalog__btn-box">
+              <button class="catalog__item-btn">Подробнее</button>
+            </div>
+            <div class="catalog__img-box">
+              <img src="images/catalog/img2.jpg" alt="">
+            </div>
+            <h3 class="catalog__item-title">Инфракрасный газовый обогреватель «Ballu 18»</h3>
+            <div class="catalog__item-params">
+              <div class="item-params__left">
+                <div class="item-params__row material">
+                  Материал: Металл
+                </div>
+                <div class="item-params__row size">                 
+                  ШДВ: 81 х 81 х 221 см
+                </div>
+              </div>
+              <div class="item-params__right">
+                <div class="item-params__row item-params__price">
+                  <span class="item-price">2 470 ₽</span>
+                  / сутки
+                </div>
+                <div class="item-params__row item-params__sub-price">
+                  со 2-го дня: 
+                  <span class="item-price1">1 235 ₽</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__item" onclick="">
+            <div class="catalog__item-form item-form">
+              <button class="form-closer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path d="M20.9082 20.2769L4.9082 4.27686M20.9082 4.27686L4.9082 20.2769" stroke="#363232" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+              </button>
+              <h6 class="item-form__title">Оставьте заявку</h6>
+              <input class="item-form__input" type="text" placeholder="Имя">
+              <input class="item-form__input" type="text" placeholder="Телефон">
+              <div class="item-form__social">
+                <label class="header-content__social-label social-label1">
+                  <input class="social-label__input" type="radio" name="item-radio" checked>
+                  <div class="header-content__label--decor">
+                    <img src="images/icon-phone-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label2">
+                  <input class="social-label__input" type="radio" name="item-radio">
+                  <div class="header-content__label--decor">
+                    <img src="images/whats-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label3">
+                  <input class="social-label__input" type="radio" name="item-radio" >
+                  <div class="header-content__label--decor">
+                    <img src="images/tg-new.png" alt="">
+                  </div>
+                </label>
+              </div>
+              <label class="item-form__label">
+                <input class="checkbox" type="checkbox" checked>
+                <div class="item-form__checkbox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                    <path d="M21.7262 2.39865L19.7634 1.06566C19.5028 0.890259 19.1835 0.824828 18.8749 0.883598C18.5663 0.942368 18.2933 1.12059 18.1155 1.3795L8.50677 15.5503L4.09008 11.1336C3.86694 10.9129 3.56576 10.7891 3.25191 10.7891C2.93806 10.7891 2.63687 10.9129 2.41373 11.1336L0.737377 12.8133C0.627143 12.9233 0.539692 13.0541 0.480026 13.198C0.42036 13.3419 0.389648 13.4962 0.389648 13.652C0.389648 13.8078 0.42036 13.962 0.480026 14.106C0.539692 14.2499 0.627143 14.3806 0.737377 14.4907L7.52699 21.2836C7.90862 21.663 8.50568 21.9561 9.04369 21.9561C9.58169 21.9561 10.1241 21.6171 10.4729 21.1097L22.0423 4.04439C22.2182 3.78412 22.2837 3.4647 22.2245 3.15619C22.1652 2.84767 21.9861 2.57524 21.7262 2.39865Z" fill="#B7B7B7" fill-opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="item-form__text">Я согласен на обработку персональных данных</span>
+              </label>
+              <button class="item-form__btn">Оставить заявку</button>
+            </div>
+            <div class="catalog__btn-box">
+              <button class="catalog__item-btn">Подробнее</button>
+            </div>
+            <div class="catalog__img-box">
+              <img src="images/catalog/img3.jpg" alt="">
+            </div>
+            <h3 class="catalog__item-title">Уличный инфракрасный обогреватель Neoclima</h3>
+            <div class="catalog__item-params">
+              <div class="item-params__left">
+                <div class="item-params__row material">
+                  Материал: Металл
+                </div>
+                <div class="item-params__row size">                 
+                  ШДВ: 49 х 49 х 227 см
+                </div>
+              </div>
+              <div class="item-params__right">
+                <div class="item-params__row item-params__price">
+                  <span class="item-price">3 350 ₽</span>
+                  / сутки
+                </div>
+                <div class="item-params__row item-params__sub-price">
+                  со 2-го дня: 
+                  <span class="item-price1">1 675 ₽</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__item" onclick="">
+            <div class="catalog__item-form item-form">
+              <button class="form-closer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path d="M20.9082 20.2769L4.9082 4.27686M20.9082 4.27686L4.9082 20.2769" stroke="#363232" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+              </button>
+              <h6 class="item-form__title">Оставьте заявку</h6>
+              <input class="item-form__input" type="text" placeholder="Имя">
+              <input class="item-form__input" type="text" placeholder="Телефон">
+              <div class="item-form__social">
+                <label class="header-content__social-label social-label1">
+                  <input class="social-label__input" type="radio" name="item-radio" checked>
+                  <div class="header-content__label--decor">
+                    <img src="images/icon-phone-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label2">
+                  <input class="social-label__input" type="radio" name="item-radio">
+                  <div class="header-content__label--decor">
+                    <img src="images/whats-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label3">
+                  <input class="social-label__input" type="radio" name="item-radio" >
+                  <div class="header-content__label--decor">
+                    <img src="images/tg-new.png" alt="">
+                  </div>
+                </label>
+              </div>
+              <label class="item-form__label">
+                <input class="checkbox" type="checkbox" checked>
+                <div class="item-form__checkbox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                    <path d="M21.7262 2.39865L19.7634 1.06566C19.5028 0.890259 19.1835 0.824828 18.8749 0.883598C18.5663 0.942368 18.2933 1.12059 18.1155 1.3795L8.50677 15.5503L4.09008 11.1336C3.86694 10.9129 3.56576 10.7891 3.25191 10.7891C2.93806 10.7891 2.63687 10.9129 2.41373 11.1336L0.737377 12.8133C0.627143 12.9233 0.539692 13.0541 0.480026 13.198C0.42036 13.3419 0.389648 13.4962 0.389648 13.652C0.389648 13.8078 0.42036 13.962 0.480026 14.106C0.539692 14.2499 0.627143 14.3806 0.737377 14.4907L7.52699 21.2836C7.90862 21.663 8.50568 21.9561 9.04369 21.9561C9.58169 21.9561 10.1241 21.6171 10.4729 21.1097L22.0423 4.04439C22.2182 3.78412 22.2837 3.4647 22.2245 3.15619C22.1652 2.84767 21.9861 2.57524 21.7262 2.39865Z" fill="#B7B7B7" fill-opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="item-form__text">Я согласен на обработку персональных данных</span>
+              </label>
+              <button class="item-form__btn">Оставить заявку</button>
+            </div>
+            <div class="catalog__btn-box">
+              <button class="catalog__item-btn">Подробнее</button>
+            </div>
+            <div class="catalog__img-box">
+              <img src="images/catalog/img4.jpg" alt="">
+            </div>
+            <h3 class="catalog__item-title">Газовый инфракрасный обогреватель «Ballu 15»</h3>
+            <div class="catalog__item-params">
+              <div class="item-params__left">
+                <div class="item-params__row material">
+                  Материал: Металл
+                </div>
+                <div class="item-params__row size">                 
+                  ШДВ: 84 x 77 х  241 см
+                </div>
+              </div>
+              <div class="item-params__right">
+                <div class="item-params__row item-params__price">
+                  <span class="item-price">3 600 ₽</span>
+                  / сутки
+                </div>
+                <div class="item-params__row item-params__sub-price">
+                  со 2-го дня: 
+                  <span class="item-price1">1 800 ₽</span>
+                </div>
+              </div>
+            </div>
+          </div>    
+          <div class="catalog__item" onclick="">
+            <div class="catalog__item-form item-form">
+              <button class="form-closer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path d="M20.9082 20.2769L4.9082 4.27686M20.9082 4.27686L4.9082 20.2769" stroke="#363232" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+              </button>
+              <h6 class="item-form__title">Оставьте заявку</h6>
+              <input class="item-form__input" type="text" placeholder="Имя">
+              <input class="item-form__input" type="text" placeholder="Телефон">
+              <div class="item-form__social">
+                <label class="header-content__social-label social-label1">
+                  <input class="social-label__input" type="radio" name="item-radio" checked>
+                  <div class="header-content__label--decor">
+                    <img src="images/icon-phone-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label2">
+                  <input class="social-label__input" type="radio" name="item-radio">
+                  <div class="header-content__label--decor">
+                    <img src="images/whats-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label3">
+                  <input class="social-label__input" type="radio" name="item-radio" >
+                  <div class="header-content__label--decor">
+                    <img src="images/tg-new.png" alt="">
+                  </div>
+                </label>
+              </div>
+              <label class="item-form__label">
+                <input class="checkbox" type="checkbox" checked>
+                <div class="item-form__checkbox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                    <path d="M21.7262 2.39865L19.7634 1.06566C19.5028 0.890259 19.1835 0.824828 18.8749 0.883598C18.5663 0.942368 18.2933 1.12059 18.1155 1.3795L8.50677 15.5503L4.09008 11.1336C3.86694 10.9129 3.56576 10.7891 3.25191 10.7891C2.93806 10.7891 2.63687 10.9129 2.41373 11.1336L0.737377 12.8133C0.627143 12.9233 0.539692 13.0541 0.480026 13.198C0.42036 13.3419 0.389648 13.4962 0.389648 13.652C0.389648 13.8078 0.42036 13.962 0.480026 14.106C0.539692 14.2499 0.627143 14.3806 0.737377 14.4907L7.52699 21.2836C7.90862 21.663 8.50568 21.9561 9.04369 21.9561C9.58169 21.9561 10.1241 21.6171 10.4729 21.1097L22.0423 4.04439C22.2182 3.78412 22.2837 3.4647 22.2245 3.15619C22.1652 2.84767 21.9861 2.57524 21.7262 2.39865Z" fill="#B7B7B7" fill-opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="item-form__text">Я согласен на обработку персональных данных</span>
+              </label>
+              <button class="item-form__btn">Оставить заявку</button>
+            </div>
+            <div class="catalog__btn-box">
+              <button class="catalog__item-btn">Подробнее</button>
+            </div>
+            <div class="catalog__img-box">
+              <img src="images/catalog/img5.jpg" alt="">
+            </div>
+            <h3 class="catalog__item-title">Газовый инфракрасный обогреватель Neoclima </h3>
+            <div class="catalog__item-params">
+              <div class="item-params__left">
+                <div class="item-params__row material">
+                  Материал: Металл
+                </div>
+                <div class="item-params__row size">                 
+                  ШДВ: 46 х 46 х 136 см
+                </div>
+              </div>
+              <div class="item-params__right">
+                <div class="item-params__row item-params__price">
+                  <span class="item-price">3 500 ₽</span>
+                  / сутки
+                </div>
+                <div class="item-params__row item-params__sub-price">
+                  со 2-го дня: 
+                  <span class="item-price1">1 750 ₽</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__item" onclick="">
+            <div class="catalog__item-form item-form">
+              <button class="form-closer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path d="M20.9082 20.2769L4.9082 4.27686M20.9082 4.27686L4.9082 20.2769" stroke="#363232" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+              </button>
+              <h6 class="item-form__title">Оставьте заявку</h6>
+              <input class="item-form__input" type="text" placeholder="Имя">
+              <input class="item-form__input" type="text" placeholder="Телефон">
+              <div class="item-form__social">
+                <label class="header-content__social-label social-label1">
+                  <input class="social-label__input" type="radio" name="item-radio" checked>
+                  <div class="header-content__label--decor">
+                    <img src="images/icon-phone-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label2">
+                  <input class="social-label__input" type="radio" name="item-radio">
+                  <div class="header-content__label--decor">
+                    <img src="images/whats-new.png" alt="">
+                  </div>
+                </label>
+                <label class="header-content__social-label social-label3">
+                  <input class="social-label__input" type="radio" name="item-radio" >
+                  <div class="header-content__label--decor">
+                    <img src="images/tg-new.png" alt="">
+                  </div>
+                </label>
+              </div>
+              <label class="item-form__label">
+                <input class="checkbox" type="checkbox" checked>
+                <div class="item-form__checkbox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                    <path d="M21.7262 2.39865L19.7634 1.06566C19.5028 0.890259 19.1835 0.824828 18.8749 0.883598C18.5663 0.942368 18.2933 1.12059 18.1155 1.3795L8.50677 15.5503L4.09008 11.1336C3.86694 10.9129 3.56576 10.7891 3.25191 10.7891C2.93806 10.7891 2.63687 10.9129 2.41373 11.1336L0.737377 12.8133C0.627143 12.9233 0.539692 13.0541 0.480026 13.198C0.42036 13.3419 0.389648 13.4962 0.389648 13.652C0.389648 13.8078 0.42036 13.962 0.480026 14.106C0.539692 14.2499 0.627143 14.3806 0.737377 14.4907L7.52699 21.2836C7.90862 21.663 8.50568 21.9561 9.04369 21.9561C9.58169 21.9561 10.1241 21.6171 10.4729 21.1097L22.0423 4.04439C22.2182 3.78412 22.2837 3.4647 22.2245 3.15619C22.1652 2.84767 21.9861 2.57524 21.7262 2.39865Z" fill="#B7B7B7" fill-opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="item-form__text">Я согласен на обработку персональных данных</span>
+              </label>
+              <button class="item-form__btn">Оставить заявку</button>
+            </div>
+            <div class="catalog__btn-box">
+              <button class="catalog__item-btn">Подробнее</button>
+            </div>
+            <div class="catalog__img-box">
+              <img src="images/catalog/img6.jpg" alt="">
+            </div>
+            <h3 class="catalog__item-title">Уличный инфракрасный обогреватель Neoclima</h3>
+            <div class="catalog__item-params">
+              <div class="item-params__left">
+                <div class="item-params__row material">
+                  Материал: Металл
+                </div>
+                <div class="item-params__row size">                 
+                  ШДВ: 56 х 46 х 183 см
+                </div>
+              </div>
+              <div class="item-params__right">
+                <div class="item-params__row item-params__price">
+                  <span class="item-price">4 200 ₽</span>
+                  / сутки
+                </div>
+                <div class="item-params__row item-params__sub-price">
+                  со 2-го дня: 
+                  <span class="item-price1">2 100 ₽</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container">
+        <div class="promo__inner">
+          <h1 class="promo__title">Оставьте номер телефона 
+            и получите полный каталог прямо сейчас!</h1>
+          <div class="promo__form">
+            <input type="text" placeholder="Телефон">
+            <button class="promo__btn">Получить каталог</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits__inner">
+          <h1 class="benefits__title">Мы также предлагаем</h1>
+          <div class="benefits__items">
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon1.svg" alt="">
+              </div>
+              <p class="benefits__item-text">Мебель</p>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon2.svg" alt="">
+              </div>
+              <p class="benefits__item-text">Пледы</p>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon3.svg" alt="">
+              </div>
+              <p class="benefits__item-text">Зарядная станция</p>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon4.svg" alt="">
+              </div>
+              <p class="benefits__item-text">Выездной гардероб</p>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon5.svg" alt="">
+              </div>
+              <p class="benefits__item-text">Настольные игры</p>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon6.svg" alt="">
+              </div>
+              <p class="benefits__item-text"> Глинтвейн стонция</p>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon7.svg" alt="">
+              </div>
+              <p class="benefits__item-text">Настольный камин</p>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon8.svg" alt="">
+              </div>
+              <p class="benefits__item-text">Декоративный свет</p>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__item-img">
+                <img src="images/benefits/icon9.svg" alt="">
+              </div>
+              <p class="benefits__item-text">Стойка
+                с зонтами </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+ <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-top__logo">
+          <img src="images/footer-logo.svg" alt="">
+        </div>
+        <a class="footer-top__mail-link"  href="mailto:gasheaters@mail.ru">gasheaters@mail.ru</a>
+        <a class="footer-top__phone-link" href="+74954311765">+7 (495) 431-17-65</a>
+      </div>
+      <div class="footer-bot">
+        <p class="footer-bot__copyright">© 2023 Аренда обогревателей </p>
+        <div class="footer-bot__social">
+          <a class="footer-bot__social-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M18.879 13.9431L15.1864 12.0969C15.041 12.0245 14.8791 11.9917 14.7171 12.0018C14.555 12.012 14.3984 12.0647 14.2632 12.1546L12.5681 13.2854C11.7899 12.8576 11.1495 12.2173 10.7217 11.4392L11.8526 9.74423C11.9426 9.60904 11.9953 9.45251 12.0054 9.29044C12.0155 9.12837 11.9827 8.96649 11.9103 8.82115L10.064 5.12885C9.98744 4.97431 9.86915 4.8443 9.72251 4.75355C9.57587 4.6628 9.40673 4.61494 9.23427 4.61539C8.01008 4.61539 6.83603 5.10165 5.97039 5.9672C5.10476 6.83275 4.61845 8.00669 4.61845 9.23077C4.6215 11.9228 5.69236 14.5037 7.5961 16.4072C9.49983 18.3108 12.081 19.3816 14.7733 19.3846C15.3794 19.3846 15.9797 19.2652 16.5397 19.0333C17.0997 18.8013 17.6085 18.4614 18.0372 18.0328C18.4658 17.6042 18.8058 17.0954 19.0377 16.5355C19.2697 15.9755 19.3891 15.3753 19.3891 14.7692C19.3892 14.5977 19.3416 14.4296 19.2515 14.2837C19.1614 14.1378 19.0324 14.0198 18.879 13.9431ZM14.7733 17.5385C12.5705 17.536 10.4586 16.66 8.90098 15.1025C7.34336 13.545 6.46722 11.4334 6.46478 9.23077C6.4646 8.59052 6.6863 7.96999 7.09214 7.47478C7.49799 6.97956 8.0629 6.64026 8.69076 6.51462L10.0155 9.16846L8.88809 10.8462C8.80384 10.9725 8.75207 11.1177 8.73738 11.2689C8.72268 11.42 8.74552 11.5725 8.80385 11.7127C9.46436 13.2824 10.7132 14.5311 12.283 15.1915C12.4237 15.2525 12.5773 15.2774 12.73 15.2641C12.8827 15.2508 13.0297 15.1997 13.1577 15.1154L14.8437 13.9915L17.4978 15.3162C17.3711 15.9447 17.0303 16.5098 16.5334 16.9151C16.0366 17.3203 15.4145 17.5407 14.7733 17.5385ZM12.0038 2.85779e-07C9.9318 -0.000451801 7.89501 0.535486 6.09165 1.55565C4.28829 2.57581 2.77979 4.04544 1.71298 5.8215C0.646178 7.59756 0.0574112 9.61953 0.00399032 11.6906C-0.0494306 13.7617 0.434314 15.8113 1.40814 17.64L0.0983979 21.5688C-0.0100917 21.8941 -0.0258361 22.2432 0.0529295 22.5769C0.131695 22.9107 0.301858 23.2159 0.544346 23.4583C0.786834 23.7008 1.09206 23.8709 1.42583 23.9497C1.75959 24.0285 2.10869 24.0127 2.43401 23.9042L6.36323 22.5946C7.97273 23.4506 9.75611 23.9287 11.578 23.9926C13.3999 24.0565 15.2124 23.7046 16.8779 22.9635C18.5435 22.2225 20.0183 21.1117 21.1904 19.7156C22.3626 18.3195 23.2012 16.6748 23.6427 14.9062C24.0842 13.1377 24.117 11.2918 23.7385 9.50866C23.36 7.72554 22.5803 6.05208 21.4584 4.61529C20.3365 3.1785 18.9021 2.01614 17.2639 1.21645C15.6257 0.416756 13.8268 0.000747958 12.0038 2.85779e-07ZM12.0038 22.1538C10.2186 22.1551 8.4647 21.685 6.91944 20.7912C6.8063 20.7255 6.68051 20.6847 6.5504 20.6714C6.4203 20.6581 6.28884 20.6725 6.16475 20.7138L1.84895 22.1538L3.28794 17.8385C3.32941 17.7145 3.34408 17.5831 3.33095 17.453C3.31782 17.3229 3.27719 17.1971 3.21177 17.0838C2.0924 15.1487 1.64298 12.8984 1.93322 10.6818C2.22347 8.46524 3.23715 6.4064 4.81703 4.82468C6.3969 3.24296 8.45465 2.22677 10.6711 1.93376C12.8875 1.64074 15.1386 2.08728 17.0753 3.2041C19.012 4.32092 20.526 6.04559 21.3824 8.11056C22.2388 10.1755 22.3897 12.4654 21.8118 14.6249C21.2338 16.7844 19.9593 18.6928 18.1859 20.0541C16.4125 21.4154 14.2395 22.1535 12.0038 22.1538Z" fill="#D1914F"/>
+              </svg>
+          </a>
+          <a class="footer-bot__social-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22" fill="none">
+              <path d="M23.1989 0.518487C22.8883 0.259173 22.5134 0.0892373 22.1142 0.0267699C21.715 -0.0356976 21.3064 0.0116412 20.9319 0.163747L1.38054 8.08519C0.962532 8.25785 0.60672 8.55398 0.360304 8.93429C0.113889 9.3146 -0.0114815 9.76111 0.00082675 10.2146C0.013135 10.6681 0.16254 11.1071 0.42922 11.4733C0.695899 11.8396 1.06725 12.1159 1.494 12.2654L5.44878 13.6461L7.65254 20.9621C7.68275 21.0597 7.72645 21.1525 7.78237 21.238C7.7911 21.2511 7.8031 21.2599 7.81183 21.2741C7.87612 21.3639 7.95375 21.4433 8.04202 21.5095C8.06666 21.5289 8.09214 21.5471 8.11839 21.5642C8.22173 21.6331 8.33615 21.6834 8.45659 21.7131L8.47077 21.7142L8.47732 21.7175C8.55023 21.7322 8.62442 21.7395 8.69879 21.7394L8.71842 21.7361C8.83016 21.7343 8.94093 21.7151 9.04681 21.6792C9.0719 21.6704 9.09263 21.6573 9.11663 21.6464C9.19583 21.6138 9.27091 21.5719 9.34028 21.5215C9.39554 21.4744 9.45081 21.4274 9.50611 21.3803L12.4539 18.1143L16.8505 21.5325C17.2375 21.835 17.7139 21.9995 18.2044 22C18.7185 21.9994 19.2168 21.8214 19.6157 21.4959C20.0145 21.1703 20.2897 20.7171 20.3951 20.2121L23.955 2.6754C24.0355 2.28087 24.0077 1.87179 23.8745 1.49189C23.7413 1.11199 23.5078 0.775539 23.1989 0.518487ZM9.13081 13.9942C8.97972 14.1456 8.87649 14.3383 8.83407 14.5483L8.49587 16.195L7.64054 13.3559L12.0754 11.0381L9.13081 13.9942ZM18.1881 19.8015L12.9918 15.7614C12.7743 15.593 12.5017 15.513 12.2281 15.5374C11.9546 15.5617 11.7002 15.6886 11.5157 15.8928L10.5709 16.9384L10.9047 15.3103L18.6321 7.55527C18.8154 7.37014 18.9269 7.12537 18.9463 6.86508C18.9656 6.60479 18.8917 6.34611 18.7379 6.13568C18.584 5.92525 18.3603 5.77691 18.107 5.7174C17.8538 5.65789 17.5877 5.69113 17.3568 5.81113L6.26701 11.6052L2.20313 10.1129L21.8177 2.23964L18.1881 19.8015Z" fill="#D1914F"/>
+              </svg>
+          </a>
+        </div>
+        <a class="footer-bot__politic"  href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/libs.js" type="module"></script>
+  <script src="js/index.js" type="module"></script>
+</body>
+</html>
